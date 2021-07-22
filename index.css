@@ -15,7 +15,6 @@ body {
   max-width: 500px;
   min-height: 300px;
   margin: auto;
-  margin-top: 1rem;
   padding: 2rem 1rem;
   text-align: center;
   background-color: var(--primary-color);
@@ -76,4 +75,10 @@ table {
 .error {
   display: none;
   color: #c13336;
+}
+
+@media (max-width: 768px) {
+  .box {
+    margin-top: 1rem;
+  }
 }
