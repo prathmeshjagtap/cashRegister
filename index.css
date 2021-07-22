@@ -77,7 +77,7 @@ table {
   color: #c13336;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .box {
     margin-top: 1rem;
   }
