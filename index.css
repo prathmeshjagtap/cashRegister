@@ -3,12 +3,11 @@
 :root {
   --primary-color: #60a5fa;
   --off-white: white;
-  margin: 0;
-  padding: 0;
 }
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: var(--off-white);
+  margin: 0;
 }
 
 .box {
@@ -16,6 +15,7 @@ body {
   max-width: 500px;
   min-height: 300px;
   margin: auto;
+  margin-top: 1rem;
   padding: 2rem 1rem;
   text-align: center;
   background-color: var(--primary-color);
