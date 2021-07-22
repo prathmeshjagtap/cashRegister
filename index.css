@@ -18,6 +18,7 @@ body {
   padding: 2rem 1rem;
   text-align: center;
   background-color: var(--primary-color);
+  box-sizing: border-box;
 }
 button {
   cursor: pointer;
@@ -44,7 +45,7 @@ p {
 }
 
 input {
-  width: 100%;
+  width: 80%;
   padding: 1rem, 1rem;
   height: 40px;
 }
