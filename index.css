@@ -7,13 +7,13 @@
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: var(--off-white);
-  margin: 25px;
+  /* margin: 25px; */
   padding: 0;
 }
 
 .box {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   min-height: 200px;
   margin: auto;
   padding: 2rem 1rem;
