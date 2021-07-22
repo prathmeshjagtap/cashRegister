@@ -77,3 +77,9 @@ table {
   display: none;
   color: #c13336;
 }
+
+@media (min-width: 768px) {
+  .box {
+    margin-top: 1rem;
+  }
+}
