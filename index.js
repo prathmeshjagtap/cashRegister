@@ -1,6 +1,7 @@
 const billAmount = document.getElementById("billAmount");
 const cashGiven = document.getElementById("cashGiven");
 const returnChange = document.getElementById("returnChange");
+const check = document.getElementById("check");
 
 const noOfNotes = document.querySelectorAll(".noOfNotes");
 const error = document.querySelector(".error");
@@ -21,7 +22,7 @@ function next() {
   }
 }
 
-function check() {
+check.addEventListener("click", () => {
   clearNotes();
   hideError();
   let bill = Number(billAmount.value);
@@ -39,7 +40,7 @@ function check() {
   } else {
     showError("Enter valid bill amount and cash given to continue");
   }
-}
+});
 
 function calculateNotes(bill, cash) {
   let returnAmount = cash - bill;
